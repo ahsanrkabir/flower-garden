@@ -1,0 +1,182 @@
+/* shared content styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    border: 0;
+    margin: 0;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 45px;
+    border-radius: 5px;
+    background: #E55473;
+}
+
+.section-title {
+    padding-top: 100px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-info {
+    padding: 25px 0 50px 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* banner section styles */
+
+.banner {
+    padding: 0 240px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner-item {
+    align-items: center;
+}
+
+#banner-content {
+    padding-top: 200px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner-info {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* featured section styles */
+
+.featured-container {
+    padding-top: 100px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-item {
+    margin: 0;
+}
+
+.featured-img {
+    width: 310px;
+    height: 428px;
+}
+
+.featured-item .featured-img {
+    position: relative;
+}
+
+.featured-text {
+    padding-top: 20px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+#pink {
+    padding: 40px 40px 0 40px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+#blue {
+    padding: 40px 40px 0 40px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+#green {
+    padding: 40px 40px 0 40px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/* activity section styles */
+
+.activity {
+    margin: 0 240px 100px;
+    padding: 80px 150px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.activity-icon {
+    padding: 10px;
+}
+
+/* hot-deal section styles */
+
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 70px 300px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+
+.hot-deal-item {
+    text-align: center;
+}
+
+/* social section styles */
+
+.social-container {
+    padding: 0 240px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* subscribe section styles */
+
+.subscribe {
+    margin: 0 240px 120px;
+    background-image: url("/images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+}
+
+.form {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-bottom: 80px;
+    justify-content: center;
+}
+
+#email {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+}
