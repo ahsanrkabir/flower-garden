@@ -50,6 +50,11 @@
     padding-top: 200px;
 }
 
+#banner-img {
+    width: 635px;
+    height: 800px;
+}
+
 .banner-title {
     color: #272727;
     font-size: 60px;
